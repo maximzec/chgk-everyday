@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "timezone": "Europe/Moscow",
+  "published": [
+    {
+      "id": "demo-01",
+      "publishDate": "2026-08-06",
+      "revision": 1,
+      "url": "/content/demo-01.json",
+      "checksum": "cff0fb80e3148948fde0772eed78cae1dee6dd487db70246d06eee69134ed70d"
+    },
+    {
+      "id": "demo-02",
+      "publishDate": "2026-08-07",
+      "revision": 1,
+      "url": "/content/demo-02.json",
+      "checksum": "f4e82288980aab08f56dca987d27b7039a928b7d8725c04604561172283a48b0"
+    },
+    {
+      "id": "demo-03",
+      "publishDate": "2026-08-08",
+      "revision": 1,
+      "url": "/content/demo-03.json",
+      "checksum": "270a31ad8c0dc6a8914fbd5328319956e7d1069feee24243fa0afa73d4fefbb9"
+    },
+    {
+      "id": "demo-04",
+      "publishDate": "2026-08-09",
+      "revision": 1,
+      "url": "/content/demo-04.json",
+      "checksum": "a1973ab00cd2c518576e265fdce30c6c002b49893ec9918bcdab029ca7c54e10"
+    },
+    {
+      "id": "demo-05",
+      "publishDate": "2026-08-10",
+      "revision": 1,
+      "url": "/content/demo-05.json",
+      "checksum": "854d458cd67a112c888967c7a543e366202ff934a750e1b11f9aa99410b55519"
+    },
+    {
+      "id": "demo-06",
+      "publishDate": "2026-08-11",
+      "revision": 1,
+      "url": "/content/demo-06.json",
+      "checksum": "6ccf2226fb4a838d53f374d24de898f1f5e0e9e98e1f50e08e972a72e348d606"
+    },
+    {
+      "id": "demo-07",
+      "publishDate": "2026-08-12",
+      "revision": 1,
+      "url": "/content/demo-07.json",
+      "checksum": "28769fba70a372207df36e1d8bf33745164e2bd53eec97e37a21c136a4e5c4df"
+    },
+    {
+      "id": "demo-08",
+      "publishDate": "2026-08-13",
+      "revision": 1,
+      "url": "/content/demo-08.json",
+      "checksum": "444da1e88824b237960a2272895c74cf5bba9266215e48a2d2bae3f119d8f1ad"
+    },
+    {
+      "id": "demo-09",
+      "publishDate": "2026-08-14",
+      "revision": 1,
+      "url": "/content/demo-09.json",
+      "checksum": "062c816b8526a74d77d8f42bf38a0222763cdaf7a9e85498a7de5ee71b064f82"
+    },
+    {
+      "id": "demo-10",
+      "publishDate": "2026-08-15",
+      "revision": 1,
+      "url": "/content/demo-10.json",
+      "checksum": "d896d5319a785bef6b15f43e7bc4f35578badac2dbbabffa81bcf7e40db9aae1"
+    },
+    {
+      "id": "demo-11",
+      "publishDate": "2026-08-16",
+      "revision": 1,
+      "url": "/content/demo-11.json",
+      "checksum": "d5fac3e4bb18a67d3d210c67f6760a2b8ec2b2ae12a0a2afe877a8f6b9976aef"
+    },
+    {
+      "id": "demo-12",
+      "publishDate": "2026-08-17",
+      "revision": 1,
+      "url": "/content/demo-12.json",
+      "checksum": "5ca646053f6dc2f96848e796eb42215a0ed5036bf85f1053b05517144282439f"
+    },
+    {
+      "id": "demo-13",
+      "publishDate": "2026-08-18",
+      "revision": 1,
+      "url": "/content/demo-13.json",
+      "checksum": "fa696789e2ed4fc6ed758807ad089a33b107123f4de565ac2da11aac084d0014"
+    },
+    {
+      "id": "demo-14",
+      "publishDate": "2026-08-19",
+      "revision": 1,
+      "url": "/content/demo-14.json",
+      "checksum": "93091f44dd3ac6f6291b96e1732438464156f4f69588bc7b6b1b29f055cb6926"
+    },
+    {
+      "id": "demo-15",
+      "publishDate": "2026-08-20",
+      "revision": 1,
+      "url": "/content/demo-15.json",
+      "checksum": "eb7eb2ef449d2caa6049a204ee1daa7540b5facb0a0f34e15175964f82d7b7e4"
+    },
+    {
+      "id": "demo-16",
+      "publishDate": "2026-08-21",
+      "revision": 1,
+      "url": "/content/demo-16.json",
+      "checksum": "930a78e743f6afc1b8a7b37aee53b6f3c59bbaccb8e8dee0c2be9bad780e7fa1"
+    },
+    {
+      "id": "demo-17",
+      "publishDate": "2026-08-22",
+      "revision": 1,
+      "url": "/content/demo-17.json",
+      "checksum": "667f5f8f326521ec33ee9b0e2be4ec994d9f4080a552276be5b4924777f02c23"
+    },
+    {
+      "id": "demo-18",
+      "publishDate": "2026-08-23",
+      "revision": 1,
+      "url": "/content/demo-18.json",
+      "checksum": "374f12c36279ebef33a4649ddce237d1fc21185dbbe033e22ca1b4a3d2c63d41"
+    },
+    {
+      "id": "demo-19",
+      "publishDate": "2026-08-24",
+      "revision": 1,
+      "url": "/content/demo-19.json",
+      "checksum": "a8afea5b709af7462709fad8356be7d14006626c6335fe4e13dcfd90a576fddb"
+    },
+    {
+      "id": "demo-20",
+      "publishDate": "2026-08-25",
+      "revision": 1,
+      "url": "/content/demo-20.json",
+      "checksum": "dcd937c3c654808398ee22cb86f7b0ac210e7c2e6f83fed453548488f6fb59d8"
+    },
+    {
+      "id": "demo-21",
+      "publishDate": "2026-08-26",
+      "revision": 1,
+      "url": "/content/demo-21.json",
+      "checksum": "21025e94b95c8411a3de26de561304cd85211b7da1bc7842c9c1c4945819b7d9"
+    },
+    {
+      "id": "demo-22",
+      "publishDate": "2026-08-27",
+      "revision": 1,
+      "url": "/content/demo-22.json",
+      "checksum": "42c38e0f4cf4faf8ce5f00d51a97e29a8bbb7cde2529eea656df269f90e6608d"
+    },
+    {
+      "id": "demo-23",
+      "publishDate": "2026-08-28",
+      "revision": 1,
+      "url": "/content/demo-23.json",
+      "checksum": "19b3f3bbe3ed4a121a42b2ad8683e24dec951e3806dfce0add260780a9bd57b5"
+    },
+    {
+      "id": "demo-24",
+      "publishDate": "2026-08-29",
+      "revision": 1,
+      "url": "/content/demo-24.json",
+      "checksum": "2a508727a988c6d4c8312c2f6420b455b862f242d50b10fdab2ad5f56fa9c280"
+    },
+    {
+      "id": "demo-25",
+      "publishDate": "2026-08-30",
+      "revision": 1,
+      "url": "/content/demo-25.json",
+      "checksum": "e58b4e1480395b2fdbf2dec734149b675e7338d94d1828a32b8373650a69be82"
+    },
+    {
+      "id": "demo-26",
+      "publishDate": "2026-08-31",
+      "revision": 1,
+      "url": "/content/demo-26.json",
+      "checksum": "ca5b23cc7da4694ac078228f88e17843d8d5ec9c8620deccd740f6b285f1822b"
+    },
+    {
+      "id": "demo-27",
+      "publishDate": "2026-09-01",
+      "revision": 1,
+      "url": "/content/demo-27.json",
+      "checksum": "50ad78bc273fa80b9e1494463ad90d1212754c2883e5558dcd414e6dadde55a5"
+    },
+    {
+      "id": "demo-28",
+      "publishDate": "2026-09-02",
+      "revision": 1,
+      "url": "/content/demo-28.json",
+      "checksum": "e005a05655d39d8626fbdc10df7e540c63e08b2ebe8f2a516092ec6fc62e3a61"
+    },
+    {
+      "id": "demo-29",
+      "publishDate": "2026-09-03",
+      "revision": 1,
+      "url": "/content/demo-29.json",
+      "checksum": "d08207e31533fce631c8aa24f23d302083581aa81273fe49d5328e04bc0a4fb0"
+    },
+    {
+      "id": "demo-30",
+      "publishDate": "2026-09-04",
+      "revision": 1,
+      "url": "/content/demo-30.json",
+      "checksum": "8119a9071321571359d310276563da4f9c66ed568168f5e6ad4e32df44912654"
+    },
+    {
+      "id": "demo-31",
+      "publishDate": "2026-09-05",
+      "revision": 1,
+      "url": "/content/demo-31.json",
+      "checksum": "651c109eb978b6b654638bdab3bd0b5a107bf9cd71bfe1cf1dd4aaabb9d70a05"
+    }
+  ],
+  "revokedIds": []
+}

@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro'; import QuestionCard from '../components/QuestionCard.astro'; import {todayQuestion,archive} from '../lib/content'; import {moscowDate} from '../lib/date';
+const q=todayQuestion();
+---
+<Base>{q?<QuestionCard question={q}/>:<section><h1>Сегодняшний вопрос ещё не загружен</h1><p>Подключитесь к интернету или откройте архив.</p><p><a class="button primary" href="/archive/">Открыть архив ({archive().length})</a></p></section>}<div id="new-day" class="notice" hidden role="status">Появился новый вопрос. <a href="/">Перейти</a></div><script define:vars={{initialDate:moscowDate()}}>window.__INITIAL_MOSCOW_DATE__=initialDate;</script></Base>

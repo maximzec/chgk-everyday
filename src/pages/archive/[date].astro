@@ -1,0 +1,6 @@
+---
+import Base from '../../layouts/Base.astro';import QuestionCard from '../../components/QuestionCard.astro';import {questions,sorted} from '../../lib/content';import {moscowDate} from '../../lib/date';
+export function getStaticPaths(){return questions.map(q=>({params:{date:q.publishDate},props:{question:q}}))}
+const {question}=Astro.props;const old=sorted.filter(q=>q.publishDate<moscowDate());const i=old.findIndex(q=>q.id===question.id);const newer=old[i-1],older=old[i+1];
+---
+<Base title={`Вопрос ${question.publishDate} — Вопрос на вечер`}>{question.publishDate===moscowDate()?<p><a href="/">Открыть сегодняшний вопрос</a></p>:<><p><a href="/archive/">← Вернуться в архив</a></p><QuestionCard question={question} archiveMode/><nav class="neighbors" aria-label="Соседние вопросы">{older?<a href={`/archive/${older.publishDate}/`}>← Раньше</a>:<span/>}{newer?<a href={`/archive/${newer.publishDate}/`}>Позже →</a>:<span/>}</nav></>}</Base>

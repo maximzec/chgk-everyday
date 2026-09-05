@@ -1,0 +1,13 @@
+---
+import type {Question} from '../lib/schema'; import {russianDate} from '../lib/date';
+const {question,archiveMode=false}=Astro.props as {question:Question,archiveMode?:boolean};
+---
+<article class="card question-card" data-question-id={question.id} data-question-date={question.publishDate}>
+ <p class="eyebrow">{archiveMode?'Вопрос из архива':'Вопрос дня'} · <span class="date">{russianDate(question.publishDate)}</span></p>
+ <h1>{archiveMode?'Вопрос на вечер':'Вопрос дня'}</h1><p class="meta">Демонстрационный вопрос</p>
+ <div class="question-text">{question.text}</div>
+ <details class="draft-box"><summary>Моя версия <span class="meta">(необязательно)</span></summary><label for={`draft-${question.id}`} class="sr-only">Черновик ответа</label><textarea id={`draft-${question.id}`} maxlength="5000" placeholder="Запишите мысль для себя…"></textarea><p class="storage-error meta" hidden>Не удалось сохранить на устройстве. Игра продолжит работать в этой вкладке.</p></details>
+ <div class="hints" aria-live="polite"><section class="reveal hint" hidden><strong>Подсказка 1.</strong> {question.hints[0]}</section><section class="reveal hint" hidden><strong>Подсказка 2.</strong> {question.hints[1]}</section></div>
+ <div class="actions game-actions"><button class="hint-button" type="button">Подсказка <span>(осталось 2)</span></button><button class="primary answer-button" type="button">Показать ответ</button></div>
+ <section class="reveal answer" hidden aria-live="polite"><h2>Ответ</h2><p><strong>{question.answer}</strong></p><p>{question.explanation}</p><div class="assessment"><p>Как получилось?</p><div class="actions"><button data-value="solved" aria-pressed="false">Разгадал</button><button data-value="not_solved" aria-pressed="false">Не додумался</button></div></div><p class="meta">Источник: {question.attribution.source}. Это оригинальный демонстрационный материал, а не архивная дата игры.</p><p><a class="button primary" href="/archive/">Перейти в архив</a></p></section>
+</article>
